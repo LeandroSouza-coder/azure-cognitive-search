@@ -1,12 +1,8 @@
 # azure-cognitive-search
 Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
 
-Aqui está um passo a passo detalhado para configurar uma pesquisa no **Azure Cognitive Search** utilizando **AI Search** para indexação e consulta de dados, além de insights e 
-ferramentas que se beneficiam dessa tecnologia.
-
----
-
 **1. Introdução ao Azure Cognitive Search**
+
 O **Azure Cognitive Search** é um serviço de pesquisa totalmente gerenciado que oferece indexação e consulta de dados aprimoradas com IA. 
 Ele pode ser usado para buscar informações em documentos, bancos de dados, imagens e outros repositórios de dados.
 
@@ -65,7 +61,6 @@ Use a API REST ou SDKs (.NET, Python, Java) para consultar os dados indexados.
 **Exemplo de Consulta na API REST:**
 **bash**
 GET https://<NOME_DO_SERVIÇO>.search.windows.net/indexes/<ÍNDICE>/docs?api-version=2023-07-01&search=termo
-```
 
 **Exemplo de Consulta em Python:**
 **python**
@@ -81,7 +76,6 @@ results = search_client.search("inteligência artificial")
 
 for result in results:
     print(result)
-```
 
 **5.2 Utilizando Busca Semântica**
 1. Ative a **Busca Semântica** no portal do Azure.
